@@ -1,0 +1,241 @@
+.profile{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1.5rem;
+    padding: 1rem;
+    margin-top: 20rem;
+}
+
+.upperProfile{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 21vh;
+}
+
+.upperProfileLeft{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1.5rem;
+}
+.upperProfileLeft img{
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.upperProfileLeft p {
+    font-size: 40px;
+    font-weight: 500;
+    color: #701518;
+}
+
+.upperProfileLeft img {
+    width: 7rem;
+    height: 7rem;
+}
+
+.upperProfileRight{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    height: 100%;
+}
+
+.customFileInput input{
+    position: fixed;
+    opacity: 0;
+    cursor: pointer;
+}
+.customFileInput{
+    background-color: #701518;
+    width: 10rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    border: 1px solid #701518;
+
+}
+
+.suppProfile {
+    font-size: 20px;
+    font-weight: 500;
+    color: #701518;
+    width: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #701518;
+    height: 3rem;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.customFileInput p{
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+}
+
+.profileTitles {
+    font-size: 30px;
+    font-weight: 500;
+    color: #701518;
+}
+
+.midProfile{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1.5rem;
+}
+
+.twoInputs{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.oneInput{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.halfInputBox{
+    width: 48%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2rem;
+    padding: 0.5rem;
+    border: 1px solid #701518;
+    border-radius: 8px;
+}
+.halfInputBox input{
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    font-size: 16px;
+}
+.fullInputBox{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2rem;
+    padding: 0.5rem;
+    border: 1px solid #701518;
+    border-radius: 8px;
+}
+
+.fullInputBox input{
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    font-size: 16px;
+}
+
+.lowerprofile{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1.5rem;
+}
+
+.customSelect{
+    width: 100%;
+}
+
+.twoPasswordInput{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.halfPasswordInput{
+    width: 48%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2rem;
+    padding: 0.5rem;
+    border: 1px solid #701518;
+    border-radius: 8px;
+    gap: 0.5rem;
+}
+
+.halfPasswordInput input {
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    font-size: 16px;
+}
+.profileIcons{
+    color: #DBD7D9;
+}
+
+.onePasswordInput{
+    display: flex;
+    width: 98.7%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2rem;
+    padding: 0.5rem;
+    border: 1px solid #701518;
+    border-radius: 8px;
+    gap: 0.5rem;
+}
+
+.onePasswordInput input{
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    font-size: 16px;
+}
+
+.submitProfile {
+    background-color: #701518;
+    width: 10rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    border: 1px solid #701518;
+    font-weight: 500;
+    font-size: 18px;
+}
+.submitSection{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

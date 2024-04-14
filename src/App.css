@@ -1,0 +1,12 @@
+.App{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+body{
+    background-color: #F4EFF1;
+}
+p{
+    margin: 0;
+}
